@@ -3,88 +3,92 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="SHEye - AI-powered real-time CCTV surveillance system for women's safety">
-  <title>SHEye - AI for Women’s Safety</title>
+  <title>SHEye – AI Safety System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
       color: #333;
-      text-align: center;
-    }
-    header {
-      background-color: #111;
-      color: #fff;
-      padding: 40px 20px;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-    p {
-      max-width: 700px;
-      margin: 20px auto;
-      font-size: 1.1rem;
       line-height: 1.6;
     }
-    .button {
+    header {
+      background-color: #111827;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2rem;
+    }
+    .hero {
+      width: 100%;
+      max-height: 500px;
+      overflow: hidden;
+    }
+    .hero img {
+      width: 100%;
+      object-fit: cover;
+    }
+    .content {
+      padding: 2rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .content h2 {
+      color: #111827;
+      margin-bottom: 1rem;
+    }
+    .btn {
       display: inline-block;
-      margin-top: 25px;
-      padding: 12px 24px;
-      font-size: 1rem;
-      background-color: #d62828;
-      color: white;
-      text-decoration: none;
+      background-color: #2563eb;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
       border-radius: 8px;
-      transition: background-color 0.3s ease;
-    }
-    .button:hover {
-      background-color: #a4161a;
-    }
-    section {
-      padding: 40px 20px;
+      text-decoration: none;
+      margin-top: 1rem;
     }
     footer {
-      background: #222;
-      color: #aaa;
-      padding: 20px 10px;
-      font-size: 0.9rem;
+      background: #111827;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>👁️ SHEye</h1>
-    <p>AI-Powered CCTV Monitoring System for Women’s Safety</p>
-    <a class="button" href="https://github.com/yourusername/SHEye" target="_blank">View on GitHub</a>
+    <h1>SHEye – AI-Powered Women’s Safety System</h1>
+    <p>Real-time CCTV monitoring using AI to detect harassment, stalking, and accidents</p>
   </header>
 
-  <section>
-    <h2>🔍 What is SHEye?</h2>
+  <section class="hero">
+    <img src="images/hero.jpg" alt="SHEye Cover">
+  </section>
+
+  <section class="content">
+    <h2>👁 About SHEye</h2>
     <p>
-      SHEye is a smart AI system that analyzes CCTV feeds in real-time to detect harassment, stalking, physical violence, and accidents.
-      Upon detection, it sends instant alerts via WhatsApp, SMS, or email — ensuring rapid intervention without any human delay.
-    </p>
-    
-    <h2>⚙️ Technologies Used</h2>
-    <p>
-      YOLOv8 · OpenCV · Python · FastAPI · Streamlit · Twilio API · WhatsApp Automation
+      SHEye is an AI system designed to monitor CCTV footage in real-time and instantly detect signs of harassment, violence, stalking, or victim collapse.
+      Built using <strong>YOLOv8</strong>, <strong>OpenCV</strong>, <strong>FastAPI</strong>, and <strong>Python</strong>, it proactively sends alerts via <strong>WhatsApp/SMS</strong> to concerned authorities — without human delay.
     </p>
 
-    <h2>🚀 Why SHEye?</h2>
-    <p>
-      Because every woman deserves to walk safely through public spaces.
-      SHEye aims to bring proactive, AI-driven protection into every metro, bus stop, and station.
-    </p>
+    <h2>🧠 Tech Stack</h2>
+    <ul>
+      <li>🔹 YOLOv8 for object and behavior detection</li>
+      <li>🔹 OpenCV for video stream processing</li>
+      <li>🔹 FastAPI for real-time backend API</li>
+      <li>🔹 Python, Docker, and Linux for scalable deployment</li>
+    </ul>
 
-    <a class="button" href="https://github.com/yourusername/SHEye" target="_blank">See Full Project</a>
+    <a class="btn" href="https://github.com/NIKHILSHIRKE56/SHEye" target="_blank">🚀 View Project on GitHub</a>
   </section>
 
   <footer>
-    &copy; 2025 SHEye by Nikhil Shirke · All Rights Reserved
+    <p>Created by Nikhil Shirke • <a style="color:#ccc" href="https://linkedin.com/in/nikhil-shirke-079221145" target="_blank">LinkedIn</a></p>
   </footer>
 
 </body>
