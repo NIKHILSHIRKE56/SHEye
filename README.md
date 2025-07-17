@@ -22,3 +22,11 @@
 *(Add a screenshot of your dashboard or detection screen here)*
 
 ## 📂 Folder Structure
+
+SHEye/
+├── models/ # Custom YOLOv8 models
+├── data/ # Training datasets
+├── app/ # FastAPI backend
+├── dashboard/ # Streamlit frontend
+├── utils/ # Helper scripts
+├── README.md
